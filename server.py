@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-
+# sabki maa ka bhosada
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
     return ''
